@@ -22,13 +22,20 @@ public class GuessGame{
 			if (attempt < secret){
 				System.out.println("The number you have entered is lower than the secret number");		
 				lowerbound  = attempt;			
+				tryAgain(lowerbound);			
 			}
 			if (attempt > secret){
 				System.out.println("The number you have entered is higher than the secret number");
 				upperbound = attempt;
+				tryAgain(upperbound);			
 			}
 			
 		}
 
 	}
+
+	public void tryAgain(int bound){
+		System.out.println("Guess the number between ");
+	}
+
 }
