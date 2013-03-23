@@ -16,7 +16,7 @@ public class GuessGame{
 		int attempt = new input.nextInt();
 
 		if (attempt == secret){
-			System.out.println("You very Good buddy! Your guess is correct.");
+			System.out.println("You very good buddy! Your guess is correct.");
 		}
 		else{
 			if (attempt < secret){
